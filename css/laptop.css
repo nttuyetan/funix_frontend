@@ -1,0 +1,70 @@
+@media only screen and (min-width: 992px) {
+  :root {
+    --font-size-base: 18px;
+  }
+
+  /* NAVBAR */
+  #nav-bar .container {
+    justify-content: center;
+  }
+
+  #nav-bar .each-nav {
+    width: 15%;
+    height: 50px;
+    justify-content: center;
+    border-left: 1px solid var(--bs-gray);
+  }
+
+  #nav-bar .each-nav:last-child {
+    border-right: 1px solid var(--bs-gray);
+  }
+
+  /* ABOUT */
+  #about .container {
+    justify-content: center;
+  }
+
+  #about .container > div {
+    width: 50%;
+    padding: 0 3rem;
+  }
+
+  /* JOB INFO */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  /* CERTIFICATE */
+  #certificate .container > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    justify-content: space-around;
+  }
+
+  .each-certificate img {
+    width: 40%;
+    margin-right: 1rem;
+  }
+
+  .each-certificate > div {
+    padding-right: 1rem;
+  }
+
+  .each-certificate:nth-child(2) {
+    border-left: 1px solid var(--bs-gray);
+    padding-left: 1rem;
+  }
+
+  /* PROJECT */
+  #project .container > div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* FOOTER */
+  #footer .container ul li {
+    margin: 0px 3rem;
+  }
+}

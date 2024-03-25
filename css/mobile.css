@@ -1,0 +1,70 @@
+@media only screen and (max-width: 767px) {
+  :root {
+    --font-size-base: 14px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  /* BANNER */
+  #banner .text-container {
+    display: none;
+  }
+
+  /* NAVBAR */
+  #avatar {
+    display: none;
+  }
+
+  #nav-bar .each-nav:nth-child(3) {
+    display: none;
+  }
+
+  #nav-bar .each-nav {
+    width: 100%;
+    height: 30px;
+    align-items: start;
+  }
+
+  /* ABOUT */
+  #target p {
+    margin-bottom: 0;
+  }
+
+  /* JOB INFO */
+  #job-info .container > .border {
+    margin-bottom: 1rem;
+  }
+
+  #job-info .container > .border:last-child {
+    margin-bottom: 0;
+  }
+
+  /* CERTIFICATE */
+  #certificate .container > div {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .each-certificate img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* PROJECT */
+  .each-project {
+    margin-bottom: 1rem;
+  }
+
+  .each-project:last-child {
+    margin-bottom: 0;
+  }
+
+  /* FOOTER */
+  #footer .container ul li {
+    font-size: smaller;
+    margin: 0px 1rem;
+  }
+}
